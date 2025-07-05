@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import confetti from 'canvas-confetti'
 
 
 import { Square } from './components/Square.jsx'
@@ -58,7 +59,7 @@ function App () {
 
   return (
     <main className='board'>
-      <h1 translate="no">Tic tac toe</h1>
+      <h1 translate="no">Ta Te Ti</h1>
       <button onClick={resetGame}>Reset del juego</button>
       <section className='game'>
         {
